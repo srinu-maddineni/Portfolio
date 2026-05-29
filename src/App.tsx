@@ -14,7 +14,7 @@ import Footer from './components/Footer';
 export default function App() {
   const [darkMode, setDarkMode] = useState<boolean>(() => {
     const saved = localStorage.getItem('theme');
-    return saved ? saved === 'dark' : true; // Default to dark mode (true)
+    return saved ? saved === 'dark' : false; // Default to light mode (false)
   });
 
   const [loading, setLoading] = useState(true);
@@ -74,11 +74,11 @@ export default function App() {
                 style={{
                   width: '4rem',
                   height: '4rem',
-                  background: 'linear-gradient(90deg, #2563eb, #7c3aed)',
+                  background: 'linear-gradient(135deg, #0d9488, #2dd4bf)',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  boxShadow: '0 10px 15px -3px rgba(37, 99, 235, 0.25)',
+                  boxShadow: '0 10px 15px -3px rgba(13, 148, 136, 0.25)',
                 }}
               >
                 <Terminal style={{ height: '2rem', width: '2rem', color: '#ffffff' }} />
