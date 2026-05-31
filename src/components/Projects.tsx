@@ -35,7 +35,7 @@ export default function Projects() {
       title: 'Netflix UI/UX Clone',
       description:
         'Built a responsive streaming platform that clones the core features of Netflix, enabling immersive movie browsing, content searches, and instant trailer playback with Firebase user accounts.',
-      image: '/netflix-clone.png',
+      image: `${import.meta.env.BASE_URL}netflix-clone.png`,
       tags: ['React.js', 'Node.js', 'TMDb API', 'YouTube API', 'Firebase Auth'],
       features: [
         'Real-time Movie Search & Filtering',
@@ -51,7 +51,7 @@ export default function Projects() {
       title: 'Task Management Web Application',
       description:
         'Full-stack task management and collaboration board allowing teams to coordinate workloads. Includes server-side database schema validation with MongoDB storage.',
-      image: '/task-manager.png',
+      image: `${import.meta.env.BASE_URL}task-manager.png`,
       tags: ['JavaScript', 'Node.js', 'Express.js', 'MongoDB'],
       features: [
         'Secure CRUD operations for tasks and subtasks',

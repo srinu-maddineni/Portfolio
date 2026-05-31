@@ -142,7 +142,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="/Srinu_Maddineni_Resume.pdf"
+                href={`${import.meta.env.BASE_URL}Srinu_Maddineni_Resume.pdf`}
                 download="Srinu_Maddineni_Resume.pdf"
                 className="btn-secondary"
               >
